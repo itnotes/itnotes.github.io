@@ -38,6 +38,10 @@ body{
 		}
 		
 		.post{
+			
+			@extend .well;
+			background: $component-active-color;
+			
 			.post-header{
 				@extend .page-header;
 				p{

@@ -2,14 +2,17 @@
 layout: default
 ---
 <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
+  <div class="post-header">
+    <p><small>{{ page.date | date: "%b %-d, %Y" }}</small></p>
+    <h1>{{ page.title }}</h1>
+    <div class="post-tags text-left">
+      <ul>
+        {% for tag in page.tags%}
+        <li><a class="label label-default" href="{{ " /tag/# " | prepend: site.baseurl }}{{ tag | slugify }}">{{tag}}</a></li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+  <article class="post-body">
+    <p>{{ content }}</p>
   </article>
-
 </div>
