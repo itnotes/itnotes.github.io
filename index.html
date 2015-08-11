@@ -15,9 +15,13 @@ layout: default
     <div class="post-body">
         <p>{{ post.excerpt }}</p>
     </div>
+    <hr/>
     <div class="post-footer">
-        <div class="text-left">
+        <div class="col-sm-6">
             <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">Read more</a>
+        </div>
+        <div class="col-sm-6">
+            {% include custom/sharing.html %}
         </div>
     </div>
 </div>{% endfor %}
