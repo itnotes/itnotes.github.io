@@ -11,6 +11,5 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  <div class="text-left">Tags: {% for tag in page.tags%} <span class="label label-primary"><a class="tag-link" href="{{ "/tag/#" | prepend: site.baseurl }}{{ tag | slugify }}">{{tag}}</a></span>{% endfor %}</div>
 
 </div>

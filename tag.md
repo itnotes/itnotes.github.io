@@ -6,8 +6,7 @@ permalink: /tag/
 ---
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}<span class="site-tag">
-    <a href="/tag/#{{ tag | first | slugify }}"
-        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+    <a class="btn btn-primary" href="/tag/#{{ tag | first | slugify }}">
             {{ tag[0] | replace:'-', ' ' }} <span class="badge">{{ tag | last | size }}</span>
     </a>
 </span>{% endfor %}

@@ -3,51 +3,90 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    1024px;
-
-$on-palm:          800px;
-$on-laptop:        1024px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
         "bootstrap"
 ;
+
+body{
+        
+    @include container-fixed();
+
+	@media (min-width: $screen-sm-min) {
+	width: $container-sm;
+	}
+	@media (min-width: $screen-md-min) {
+	width: $container-md;
+	}
+	@media (min-width: $screen-lg-min) {
+	width: $container-lg;
+	}
+	
+	.site-header{
+		@include make-row();
+	}
+	
+	.page-content{
+		@include make-row();
+		
+		.site-main{
+			@include make-sm-column(9);
+		}
+		
+		.site-sidebar{
+			@include make-sm-column(3);
+		}
+		
+		.post{
+			.post-header{
+				@extend .page-header;
+				p{
+					margin: 0px;
+				}
+				h1{
+					margin-top:0px;
+				}
+				small{
+					@extend .text-muted;
+				}
+				margin-top:0px;
+				.post-tags{
+					ul{
+						padding: 0px;
+						margin-bottom: 0px;
+					}
+					ul li{
+	  					display: inline;
+					}
+				}
+			}
+			
+			.post-body{
+				
+			}
+			
+			.post-footer{
+				
+			}
+		}
+	}
+	
+	.site-pagination{
+		@extend .text-center;
+	}
+	
+	
+	.site-footer{
+		@include make-row();
+		@extend .navbar;
+		@extend .navbar-default;
+		@extend .text-center;
+		
+		margin-bottom: 0px;
+		
+		.footer-copiright{
+			padding-top:15px;
+		}
+    
+	}
+}

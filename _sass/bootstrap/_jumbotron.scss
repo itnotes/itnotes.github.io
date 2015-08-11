@@ -43,5 +43,10 @@
       padding-left:  ($jumbotron-padding * 2);
       padding-right: ($jumbotron-padding * 2);
     }
+
+    h1,
+    .h1 {
+      font-size: $jumbotron-heading-font-size;
+    }
   }
 }
