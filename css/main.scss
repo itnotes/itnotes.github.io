@@ -35,6 +35,10 @@ body{
 		
 		.site-sidebar{
 			@include make-sm-column(3);
+			ul{
+				padding-left:5px;
+				list-style-type:none;
+			}
 		}
 		
 		.post{
