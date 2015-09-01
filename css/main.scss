@@ -84,6 +84,11 @@ body {
     margin-bottom: 0;
     .footer-copiright {
       padding-top: 15px;
+      a.social_link {
+        text-decoration: none; 
+        decoration: none; 
+        color:black; 
+      }
     }
   }
 }

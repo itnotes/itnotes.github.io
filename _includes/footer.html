@@ -1,12 +1,16 @@
 <footer class="site-footer">
   <div class="footer-copiright">
-    &copy;2015 by <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="social_link" href="https://twitter.com/{{ site.contacts.twitter }}"><i class="fa fa-twitter-square fa-3x"></i></a>
+    <a class="social_link" href="https://github.com/{{ site.contacts.github }}"><i class="fa fa-github-square fa-3x"></i></a>
+    <br> &copy;2015 by <a href="{{ site.baseurl }}/">{{ site.title }}</a>
   </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ " /public/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ " /public/js/highlight.pack.js " | prepend: site.baseurl }}"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
   (function(d, w, c) {
