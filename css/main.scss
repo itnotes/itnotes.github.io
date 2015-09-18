@@ -71,6 +71,10 @@ body {
     }
     ul li {
       display: inline;
+      padding-left: 10px;
+    }
+    ul li:first-child{
+      padding-left: 0;
     }
   }
   .site-pagination {
@@ -89,6 +93,14 @@ body {
         decoration: none; 
         color:black; 
       }
+    }
+  }
+  .recent-news {
+    ul li {
+      padding-top: 10px;
+    }
+    ul li:first-child{
+      padding-top: 0;
     }
   }
 }
