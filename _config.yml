@@ -18,4 +18,5 @@ contacts:
   twitter: itnotes_io
   github: itnotes
 testvalue: test
- 
+gems:
+  - jekyll-sitemap
