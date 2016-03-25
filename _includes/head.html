@@ -5,14 +5,16 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   
-  {% if page.description != blank %}
+  {% if page.description %}
     <meta name="description" content="{{page.description}}">
   {% else %}
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{{ site.description }}">
   {% endif %}
   
   {% if page.tags.size > 0 %}
-    <meta name="keywords" content="{{page.tags | array_to_sentence_string }}">
+    <meta name="keywords" content="{{page.tags | array_to_sentence_string}}">
+  {% else %}
+    <meta name="keywords" content="{% for tag in site.tags %}{{ tag[0] }}{% if forloop.last == false %},{% endif %}{% endfor %}">
   {% endif %}
   
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
