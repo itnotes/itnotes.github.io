@@ -2,14 +2,14 @@
 title: ITNotes
 description: "Кратко об IT"
   
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://itnotes.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://itnotes.github.io"
 port: 8080
 host: 0.0.0.0
 
 # Build settings
 markdown: kramdown
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+excerpt_separator: <!--more-->
 paginate: 5
 paginate_path: page:num
 contacts:
