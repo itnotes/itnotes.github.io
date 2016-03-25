@@ -5,11 +5,32 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   
-  {% if page.description %}
+  {% if page.title %}
     <meta name="description" content="{{page.description}}">
+    <meta property="og:type" content="article">
+
   {% else %}
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
   {% endif %}
+  
+    <meta property="og:site_name" content="{{site.title}}">
+    <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{% if post.url %}{{ post.url }}{% else %}{{ page.url }}{% endif %}">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/13501608?v=3&s=460">
+    <meta property="og:image:width" content="968">
+    <meta property="og:image:height" content="504">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{{page.description}}.">
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/13501608?v=3&s=460">
+    <meta name="twitter:url" content="{{ site.url }}{% if post.url %}{{ post.url }}{% else %}{{ page.url }}{% endif %}">
+    <meta name="twitter:domain" content="{{site.url}}">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@{{site.contacts.twitter}}">
   
   {% if page.tags.size > 0 %}
     <meta name="keywords" content="{{page.tags | array_to_sentence_string}}">
