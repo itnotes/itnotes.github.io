@@ -14,7 +14,7 @@ layout: default
     </div>
     <div class="post-body">
         <p>{{ post.excerpt }}</p>
-        <!--{% if post.excerpt != post.content %}<p>Read more...</p>{% endif %}-->
+        {% if post.content contains site.excerpt_separator %} <a href="{{ post.url | prepend: site.baseurl }}">Читать продоллжение</a>{% endif %}
     </div>
     <hr/>
     <div class="post-footer">
