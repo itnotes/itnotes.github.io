@@ -8,9 +8,7 @@ port: 8080
 host: 0.0.0.0
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["strikethrough"]
+markdown: kramdown
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 paginate: 5
 paginate_path: page:num
@@ -20,3 +18,4 @@ contacts:
 testvalue: test
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
