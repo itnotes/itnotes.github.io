@@ -13,6 +13,8 @@ tags:
 Как я писал в [предыдущей статье]({% post_url 2015-09-01-jawbone-up24-after-one-year %}), мой jawbone up24 получил значительные травмы (но продолжал функционировать), вследствии чего было принято решение найти ему
 бюджетную замену. Решением оказался Xiaomi Mi Band. И вот, наконец-то спустя 3 недели ожидания мне пришла посылка. В ней оказались два браслета Xiaomi Mi Band и набор линз для телефона. 
 
+<!--more-->
+
 <img style="width: 49%" src="/public/images/2015-09-23-jawbone-vs-xiaomi/box1.jpg">
 <img style="width: 49%" src="/public/images/2015-09-23-jawbone-vs-xiaomi/box2.jpg">
 
