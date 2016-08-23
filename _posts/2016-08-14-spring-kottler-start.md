@@ -9,6 +9,7 @@ tags:
 - kotlin
 - tutorial
 - announcement
+- kottler
 ---
 
 С момента релиза Kotlin прошло примерно полгода. 
