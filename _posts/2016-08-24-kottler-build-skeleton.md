@@ -42,7 +42,7 @@ tags:
 любезно предложит создать файл .gitignore (или же его можно создать самостоятельно).
 
 После импорта мы получили следующую структуру:
-![структура проекта](/public/images/2016-08-24-kottler-build-skeleton/sk-02.png)
+<img style="width: 100%" src="/public/images/2016-08-24-kottler-build-skeleton/sk-02.png">
 
 Сразу добавим в pom.xml необходимые для логирования зависимости:
 
@@ -58,7 +58,7 @@ tags:
 ['http://127.0.0.1:8080/hello'](http://127.0.0.1:8080/hello) отображается 
 сообщение 'Hello'. Для запуска необходимо выполнить задачу ```mvn spring-boot:run```
 (можно вызвать её прямо из IDEA):
-![звпуск проекта](/public/images/2016-08-24-kottler-build-skeleton/sk-03.png)
+<img style="width: 100%" src="/public/images/2016-08-24-kottler-build-skeleton/sk-03.png">
 
 Несмотря на то что контроллер отрабатывает корректно, debug сообщение из строки 
 ```logger.debug("HelloController#hello executed")``` никуда не вывелось. Причина 
