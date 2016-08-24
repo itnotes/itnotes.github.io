@@ -91,3 +91,16 @@ tags:
 и увидим уже знакомую надпись 'Hello', а так же увидим запись в консоли: 
 
 ```2016-08-24 07:59:47.522 [http-nio-8080-exec-1] DEBUG io.github.itnotes.controllers.HelloController[14] - HelloController#hello executed```
+
+# Summary
+
+В данном уроке мы создали каркас приложения и настроили логирование.
+
+Исходный код можно посмотреть на [github](https://github.com/itnotes/spring-kottler/tree/sk-01).
+
+Или скачать, выполнив команды:
+
+{% highlight bash %}
+git clone https://github.com/itnotes/spring-kottler.git
+git checkout tags/sk-01
+{% endhighlight %}
