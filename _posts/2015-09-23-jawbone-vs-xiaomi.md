@@ -5,9 +5,9 @@ date:   2015-09-23 00:39:00
 categories: posts
 description: "Jawbone up24 vs Xiaomi Mi Band"
 tags:
-- jawbone
-- gadgets
-- xiaomi
+- Jawbone
+- Gadgets
+- Xiaomi
 ---
 
 Как я писал в [предыдущей статье]({% post_url 2015-09-01-jawbone-up24-after-one-year %}), мой jawbone up24 получил значительные травмы (но продолжал функционировать), вследствии чего было принято решение найти ему

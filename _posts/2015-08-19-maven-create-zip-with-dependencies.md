@@ -5,10 +5,10 @@ date:   2015-08-19 00:56:00
 categories: posts
 description: "Создание zip архива с зависимостями при помощи maven"
 tags:
-- maven
-- java
-- maven assembly
-- log4j
+- Maven
+- Java
+- Maven Assembly
+- Log4j
 ---
 
 ## Предыстория

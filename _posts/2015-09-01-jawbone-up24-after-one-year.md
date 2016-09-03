@@ -5,8 +5,8 @@ date:   2015-09-01 00:39:00
 categories: posts
 description: "Впечатления о #Jawbone up24 за год использования"
 tags:
-- jawbone
-- gadgets
+- Jawbone
+- Gadgets
 ---
 
 ## Знакомство и первые впечатления

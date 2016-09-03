@@ -5,7 +5,7 @@ date:   2015-08-11 13:29:00
 categories: posts
 description: Первая статья блога
 tags:
-- jekyll
+- Jekyll
 - ITNotes
 ---
 

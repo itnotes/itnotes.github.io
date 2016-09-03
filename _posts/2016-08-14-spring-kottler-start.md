@@ -5,11 +5,11 @@ date:   2016-08-14 15:00:00
 categories: posts
 description: Пишем приложение с нуля на Kotlin и Spring
 tags:
-- spring
-- kotlin
-- tutorial
-- announcement
-- kottler
+- Spring
+- Kotlin
+- Tutorial
+- Announcement
+- Kottler
 ---
 
 С момента релиза Kotlin прошло примерно полгода. 

@@ -5,9 +5,9 @@ date:   2016-01-06 16:40:00
 categories: posts
 description: "#cyanogenmod12 или глоток свежего воздуха для #nexus7 3g (2012)"
 tags:
-- cyanogenmod12
-- nexus7 3g
-- android
+- Cyanogenmod12
+- Nexus7 3g
+- Android
 ---
 
 Наконец-то я смог выкроить время и обновить прошивку на своём уже не молодом nexus7. Выбор пал на cyanogenmod12 (почему - расскажу ниже). Мануалок по установке данной прошивки тьма, 

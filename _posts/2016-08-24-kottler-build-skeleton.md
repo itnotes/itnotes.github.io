@@ -5,10 +5,10 @@ date:   2016-08-24 15:00:00
 categories: posts
 description: Построение каркаса приложения spring + kotlin
 tags:
-- spring
-- kotlin
-- tutorial
-- kottler
+- Spring
+- Kotlin
+- Tutorial
+- Kottler
 ---
 
 Первая часть цикла статей посвящена созданию каркаса будущего приложения и 
