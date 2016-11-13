@@ -7,6 +7,11 @@
     <br> &copy;2015-2016 by <a href="{{ site.baseurl }}/">{{ site.title }}</a>
   </div>
 </footer>
+<script>
+var host = "itnotes.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ " /public/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ " /public/js/highlight.pack.js " | prepend: site.baseurl }}"></script>
