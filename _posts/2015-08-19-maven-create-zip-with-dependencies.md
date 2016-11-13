@@ -7,6 +7,10 @@ description: "Создание zip архива с зависимостями п
 tags:
 - Maven
 - Java
+- Log4j
+keywords:
+- Maven
+- Java
 - Maven Assembly
 - Log4j
 ---

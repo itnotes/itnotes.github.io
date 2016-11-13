@@ -10,6 +10,12 @@ tags:
 - Tutorial
 - Announcement
 - Kottler
+keywords:
+- Spring
+- Kotlin
+- Tutorial
+- Announcement
+- Kottler
 ---
 
 С момента релиза Kotlin прошло примерно полгода. 

@@ -7,6 +7,9 @@ description: "Впечатления о #Jawbone up24 за год использ
 tags:
 - Jawbone
 - Gadgets
+keywords:
+- jawbone
+- jawbone up24
 ---
 
 ## Знакомство и первые впечатления

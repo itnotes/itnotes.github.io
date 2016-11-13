@@ -8,6 +8,12 @@ tags:
 - Jawbone
 - Gadgets
 - Xiaomi
+keywords:
+- jawbone
+- jawbone up24
+- xiaomi
+- xiaomi mi band
+- mi band
 ---
 
 Как я писал в [предыдущей статье]({% post_url 2015-09-01-jawbone-up24-after-one-year %}), мой jawbone up24 получил значительные травмы (но продолжал функционировать), вследствии чего было принято решение найти ему

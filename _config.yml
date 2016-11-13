@@ -15,7 +15,10 @@ paginate_path: page:num
 contacts:
   twitter: itnotes_io
   github: itnotes
-testvalue: test
+keywords:
+  - java
+  - kotlin
+  - maven
 gems:
   - jekyll-sitemap
   - jekyll-paginate

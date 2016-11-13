@@ -32,10 +32,10 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@{{site.contacts.twitter}}">
   
-  {% if page.tags.size > 0 %}
-    <meta name="keywords" content="{{page.tags | array_to_sentence_string}}">
+  {% if page.keywords.size > 0 %}
+    <meta name="keywords" content="{% for keyword in page.keywords %}{{ keyword }}{% if forloop.last == false %},{% endif %}{% endfor %}">
   {% else %}
-    <meta name="keywords" content="{% for tag in site.tags %}{{ tag[0] }}{% if forloop.last == false %},{% endif %}{% endfor %}">
+    <meta name="keywords" content="{% for keyword in site.keywords %}{{ keyword }}{% if forloop.last == false %},{% endif %}{% endfor %}">
   {% endif %}
   
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

@@ -7,6 +7,9 @@ description: "5 нововведений в #Java9"
 tags:
 - Java 9
 - Перевод
+keywords:
+- java 9
+- java
 ---
 
 Перед вами вольный перевод [статьи](http://www.javacodegeeks.com/2015/06/5-features-in-java-9-that-will-change-how-you-develop-software-and-2-that-wont.html) на тему интересных нововведений в Java 9.

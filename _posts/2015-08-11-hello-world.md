@@ -7,6 +7,9 @@ description: Первая статья блога
 tags:
 - Jekyll
 - ITNotes
+keywords:
+- jekyll
+- github pages
 ---
 
 ## Вступление

@@ -9,6 +9,11 @@ tags:
 - Kotlin
 - Tutorial
 - Kottler
+keywords:
+- Spring
+- Kotlin
+- Tutorial
+- Kottler
 ---
 
 Первая часть цикла статей посвящена созданию каркаса будущего приложения и 

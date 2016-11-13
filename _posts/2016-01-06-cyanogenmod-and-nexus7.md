@@ -5,7 +5,14 @@ date:   2016-01-06 16:40:00
 categories: posts
 description: "#cyanogenmod12 или глоток свежего воздуха для #nexus7 3g (2012)"
 tags:
+- Cyanogenmod
+- Nexus
+- Android
+keywords:
 - Cyanogenmod12
+- cyanogenmod
+- nexus7
+- nexus7
 - Nexus7 3g
 - Android
 ---
