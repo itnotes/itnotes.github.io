@@ -22,3 +22,4 @@ keywords:
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-gist
