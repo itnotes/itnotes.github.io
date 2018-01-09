@@ -12,6 +12,7 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 paginate: 5
 paginate_path: page:num
+future: true
 contacts:
   twitter: itnotes_io
   github: itnotes
